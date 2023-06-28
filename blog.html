@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konyveles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<section class="sub-header">
+    <nav>
+
+        <a href="index.html"><img src="images/logo2.jpg" alt=""></a>
+        
+        <div class="nav-links" id="navLinks">
+            
+
+           
+
+            <i class="fa fa-times"  onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+
+
+                <li class="dropdown">
+                    <a href="#" class="menu-item expand-btn">Szolgáltatásaink</a>
+                    <ul class="dropdown-menu expandable">
+                      
+                        <li><a href="konyveles.html" class="menu-item">Könyvelés</a></li>
+                        <li><a href="berszamfejtes.html" class="menu-item">Bérszámfejtés</a></li>
+                        <li><a href="ado.html" class="menu-item">Adóbevallás</a></li>
+                        <li><a href="eseti.html" class="menu-item">Eseti megbízás</a></li>
+                    </ul>
+                <li><a href="about.html">Rólunk</a></li>
+
+
+           
+
+         
+
+
+
+                <li class="dropdown">
+                    <a href="#" class="menu-item expand-btn">Blog</a>
+                    <ul class="dropdown-menu expandable">
+                      
+                      <li><a href="#" class="menu-item">Könyvelés </a></li>
+                      <li><a href="#" class="menu-item">Valami</a></li>
+                      <li><a href="#" class="menu-item">valami</a></li>
+                      <li><a href="#" class="menu-item">valami</a></li>
+                    </ul>            
+                                   
+
+                <li><a href="contact.html">Kapcsolat</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Blog</h1>
+   
+</section>
+
+
+<!------blog page content-->
+
+<section class="blog-content">
+
+
+<div class="row">
+    <div class="blog-left">
+<img src="images/logo.jpg" alt="">
+<h2>Blog</h2>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae itaque doloremque nisi commodi voluptate perspiciatis iusto ipsa repellat, aliquid dicta velit quidem reprehenderit sapiente quaerat eum atque error sequi asperiores.</p>
+<br>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam excepturi nisi quisquam numquam odit aperiam facilis. Labore repudiandae doloremque distinctio?</p>
+<br>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci recusandae, commodi deleniti, cupiditate doloribus natus et tempora consequuntur voluptas ea fugit explicabo blanditiis maxime dolore deserunt. Nulla a corrupti suscipit enim id blanditiis nemo? Aperiam ex earum beatae tempore dolorum?</p>
+
+
+<div class="comment-box">
+
+    <h3>Leave a comment
+
+    </h3>
+
+    <form class="comment-form" >
+<input type="text" placeholder="Enter Name">
+<input type="email" placeholder="Enter Email">
+<textarea  rows="5" placeholder="Your comment"></textarea>
+<button type="submit" class="hero-btn red-btn">post comment
+
+</button>
+
+    </form>
+    
+    
+   
+</div>
+
+
+       
+    </div>
+    <div class="blog-right">
+        <h3>Post categories</h3>
+        <div>
+<span>Business Analitics</span>    
+<span>21</span>
+
+        </div>
+        <div>
+            <span>Data science</span>    
+            <span>28</span>
+            
+                    </div>
+                    <div>
+                        <span>Machine learning</span>    
+                        <span>15</span>
+                        
+                                </div>
+                                <div>
+                                    <span>Computer science</span>    
+                                    <span>34</span>
+                                    
+                                            </div>
+                                            <div>
+                                                <span>Business Analitics</span>    
+                                                <span>21</span>
+                                                
+                                                        </div>
+
+    </div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!------Footer-->
+
+
+<section class="footer">
+    <h4>
+        Rólam
+    </h4>
+<p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia sapiente rem a dolores dignissimos sunt similique doloremque voluptas odio numquam?
+</p>
+
+<div class="icons">
+
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-facebook"></i>
+</div>
+
+
+
+</section>
+
+
+<!------Java-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
